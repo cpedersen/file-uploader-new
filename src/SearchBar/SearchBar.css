@@ -1,0 +1,18 @@
+.SearchBar{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    background-color: #F0F0F0;
+}
+
+.SearchBar__heading {
+    font-size: large;
+    margin-left: 1em;
+}
+
+.SearchBar__controls {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,5 @@
+.ControlBar {
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: row;
+}

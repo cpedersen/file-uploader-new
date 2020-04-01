@@ -1,0 +1,11 @@
+.ListItem {
+    border: 1px solid black;
+}
+
+.ListItem__content {
+    margin-left: 1em;
+}
+
+.ListItem__actions {
+    justify-content: right;
+}
