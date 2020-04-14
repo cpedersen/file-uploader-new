@@ -5,6 +5,7 @@ import { faRedoAlt, faTrashAlt, faCloudDownloadAlt } from '@fortawesome/free-sol
 
 class ControlBar extends Component {
     render() {
+        console.log("Inside ControlBar")
         return (
             <div className="ControlBar">
                 <div className="ControlBar__btn"><FontAwesomeIcon icon={faRedoAlt}/></div>

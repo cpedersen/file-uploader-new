@@ -5,6 +5,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 class SearchBox extends Component {
     render() {
+        console.log("Inside SearchBox")
         return (
             <div className="SearchBox">
                 <FontAwesomeIcon icon={faSearch}/>

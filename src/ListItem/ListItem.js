@@ -11,6 +11,7 @@ import {
 
 class ListItem extends Component {
     render() {
+        console.log("Inside ListItem")
         const icons = {
             "jpg": faFileImage,
             "mov": faFileVideo,

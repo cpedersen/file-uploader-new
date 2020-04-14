@@ -4,6 +4,7 @@ import ListItem from '../ListItem/ListItem';
 
 class FilterableList extends Component {
     render() {
+        console.log("Inside FilterableList")
         const { searchTerm, filterOption } = this.props;
         const list = this.props.files
             .filter(file => file.name.includes(searchTerm)

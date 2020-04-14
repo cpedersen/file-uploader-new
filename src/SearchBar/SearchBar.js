@@ -5,6 +5,7 @@ import FilterOptions from '../FilterOptions/FilterOptions';
 
 class SearchBar extends Component {
     render() {
+        console.log("Inside SearchBar")
         return (
             <div className="SearchBar">
                 <div className="SearchBar__heading">

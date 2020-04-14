@@ -3,6 +3,7 @@ import './FilterOptions.css';
 
 class FilterOptions extends Component {
     render() {
+        console.log("Inside FilterOptions")
         const { filterOption } = this.props;
         return (
             <div className="FilterOptions">

@@ -14,18 +14,22 @@ class App extends Component {
   }
 
   updateSearchTerm(term) {
+    console.log("Updating searchTerm ", term)
     this.setState({
       searchTerm: term
     })
   }
 
   updateFilterOption(option) {
+    console.log("Updating FilterOptions ", option)
+    
     this.setState({
       filterOption: option
     })
   }
 
   render() {
+    console.log("Inside App.js")
     return (
     <div className="App">
       <SearchBar
